@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Varela+Round&display=swap');
+
+body{
+    font-family: 'Varela Round', sans-serif;
+}
+
+i.pincel{
+    color: orange;
+}
+
+i.lixo{
+    color: red;
+}
+
+.novo{
+    background-color: aqua;
+    color: white;
+    border: 0;
+}
+
+.cor{
+    color: #666;
+}
