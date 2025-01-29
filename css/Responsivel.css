@@ -1,0 +1,86 @@
+/* Estilos gerais */
+header div {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+/* Estilos para larguras maiores que 1000px */
+@media (min-width: 1001px) {
+    .linha1 {
+        background-color: green;
+    }
+
+    .linha2 {
+        background-color: yellow;
+    }
+
+    .linha3 {
+        background-color: blue;
+    }
+
+    .linha4 {
+        background-color: gray;
+    }
+}
+
+/* Estilos para larguras entre 801px e 1000px */
+@media (max-width: 1000px) and (min-width: 801px) {
+    .linha1 {
+        background-color: black;
+    }
+
+    .linha2 {
+        background-color: red;
+    }
+
+    .linha3 {
+        background-color: purple;
+    }
+
+    .linha4 {
+        background-color: blue;
+    }
+}
+
+/* Estilos para larguras entre 601px e 800px */
+@media (max-width: 800px) and (min-width: 601px) {
+    .linha1 {
+        background-color: yellow;
+    }
+
+    .linha2 {
+        background-color: pink;
+    }
+
+    .linha3 {
+        background-color: lilac;
+    }
+
+    .linha4 {
+        background-color: black;
+    }
+}
+
+/* Estilos para larguras menores que 600px */
+@media (max-width: 600px) {
+    .linha1 {
+        background-color: white;
+        border: 2px solid black;
+    }
+
+    .linha2 {
+        background-color: black;
+        border: 3px dotted red;
+    }
+
+    .linha3 {
+        background-color: yellow;
+        border: 2px dashed blue;
+    }
+
+    .linha4 {
+        background-color: blue;
+        border: 3px solid green;
+    }
+}
