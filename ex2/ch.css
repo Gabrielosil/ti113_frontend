@@ -1,0 +1,39 @@
+@import url("../css/reset.css");
+
+@media only screen and (max-width: 768px) {
+    section {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+    .card img{
+        width: 100vw;
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    section {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .card img{
+        width: 50vw;
+        aspect-ratio: 16/9;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .card img{
+        width: 30vw;
+        height: auto;
+        aspect-ratio: 16/9;
+    }
+}
